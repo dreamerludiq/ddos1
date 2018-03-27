@@ -3,7 +3,7 @@ use Socket;
 $ARGC=@ARGV;
 my ($ip,$port,$size,$time);
 if ($ARGC !=1) {
-printf "^[[0;31m* ^[[0;32m#> Comanda este perl h4e ^[[0;31m$0 <IP> ^[[0;31m*^[[0m\n";
+printf "^[[0;31m* ^[[0;32m#> The command is perl ddos.pl  <IP> ";
 exit(1);
 }
 $ip=$ARGV[0];
